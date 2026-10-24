@@ -208,13 +208,13 @@ margin-top: 20px;
 
 /* second card section start  */
 .second-card{
-    height: 1350px;
+    height: 1300px;
     background-color: #E2FFF6;
     
 }
 .secondcardContainer{
     width: 1320px;
-    padding: 200px 0;
+    padding: 160px 0;
     margin: 0 auto;
 }
 .card-nav{
