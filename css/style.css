@@ -1,6 +1,7 @@
 /* common css */ 
 *{margin: 0px;
     padding: 0px;
+   
      font-family: "Poppins", sans-serif;
 }
 /* common css end  */
@@ -206,7 +207,7 @@ margin-top: 20px;
 }
 /* card end  */
 
-/* second card section start  */
+/* second and third card section start  */
 .second-card{
     height: 1300px;
     background-color: #E2FFF6;
@@ -294,7 +295,7 @@ border-radius: 500px;
 .card-btn a i{
 transform: rotate(-50deg);
 }
-/* card section css end  */
+/* second and third card section css end  */
 
 /* job section css start  */
 .job-section{
@@ -404,3 +405,157 @@ background-color: #FFFFFF;
     padding: 6px 14px 6px 38px;
     border-radius: 10;
  }
+#best-section{
+width: 1280px;
+background-color: #E2FFF6;
+height: 720px;
+position: relative;
+}
+.best-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    padding: 108px;
+    margin:  0 auto;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+
+}
+.best-left{
+    width: 50%;
+    
+}
+.best-right{
+    width: 50%;
+}
+
+.best-logu{
+    width: 460px;
+    height: 80px;
+    display: flex;
+   column-gap: 10px;
+   margin-bottom: 31px;
+}
+.best-left h2{
+    color: #242B36;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.logu-titele h3{
+    color: #242B36;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+}
+.logu-titele p{
+    color:#3B4759 ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+ .best-logu img{
+   width: 24px;
+   height: 32px;
+   color: #242B36;
+ } 
+.best-right img{
+    width: 100%;
+} 
+/* best section end  */ 
+/* frelancer sectin start  */
+#freelancers{
+    padding: 120px 0;
+    background-color: #ECEDEF;
+}
+.freeHeader{
+    width: 580px;
+    height: 88px;
+    margin:  0 auto;
+    margin-bottom: 60px;
+}
+.freeHeader h1{
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: 500;
+    color: #242B36;
+    text-align: center;
+}
+.freebg{
+    background-image: url(../image/Group15.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.freecontainer{
+    width: 1320px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 60px;
+}
+.freecard{
+    text-align: center;
+    width: 30%;
+    height: 38%;
+    
+    padding: 20px 18px;
+    border-radius: 12px;
+    background-color:#FFFFFF;
+    box-shadow: 5px 5px 5px #FFFFFF;
+}
+.freeheader{
+    margin-bottom: 10px;
+}
+.freeheader h4{
+font-size: 18px;
+color: #242B36;
+font-weight: 500;
+line-height: 24px;
+}
+.freeheader p{
+font-size: 14px;
+color: #414E62;
+font-weight: 400;
+line-height: 20px;
+}
+.freecardbtt p{
+    margin-top:10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+     color: #242B36;
+}
+.freecardbtt img{
+margin-top: 10px;
+width: 23px;
+height: 23px;
+}
+#mobile-siction{
+    padding: 240px 0;
+}
+.mobile-contaier{
+    width: 1320px;
+    height: 400px;
+    margin:  0 auto;
+    display: flex;
+}
+.mobile-right{
+    width: 50%;
+}
+/* mobile end  */
+/* .thirtcard start  */
+#thirdcard{
+background-color: #E2FFF6;
+padding: 120px;
+}
+.thirdContainer{
+    width: 1320px;
+    margin: 0 auto;
+}
