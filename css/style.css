@@ -545,6 +545,7 @@ height: 23px;
     height: 400px;
     margin:  0 auto;
     display: flex;
+    gap: 25px;
 }
 .mobile-right{
     width: 50%;
