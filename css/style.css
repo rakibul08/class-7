@@ -9,7 +9,10 @@
 
 #header{
     padding:40px 0;
-background-color:#E2FFF6 ;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
 border-bottom: 1px solid;
 
 
@@ -64,7 +67,7 @@ border-radius: 500px;
     height: 600px;
    
     margin:0 auto ;
-    margin-top: 120px
+    margin-top: 181px
 } 
 .banner-container{
     display: flex;
@@ -72,10 +75,10 @@ border-radius: 500px;
     align-items: center;
 }
 .banner-left{
-width: 660px;
+width: 50%;
 }
 .banner-title h1{
-font-size: 64px;
+font-size: 63px;
 color:#242B36 ;
 font-weight: 500;
 }
@@ -136,9 +139,12 @@ border: 1px solid ;
     margin-right: 5px;
     border-radius: 5px;
 }
+.banner-right{
+width: 50%;
+}
 .banner-right img{
-width: 600px;
-height: 600px;
+width: 100%;
+
 
 }
 /* banner end  */
